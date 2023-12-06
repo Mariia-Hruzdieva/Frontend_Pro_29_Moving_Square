@@ -1,0 +1,29 @@
+body {
+    /* margin: 0; */
+    position: relative;
+    min-height: 100vh;
+    /* min-width: 100vw; */
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+
